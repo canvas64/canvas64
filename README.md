@@ -19,12 +19,12 @@ Claim a free cell for $30 in USDC and your photo and links are on the wall in fr
 
 ## For AI agents and developers
 
-Every cell, price and payout is one call away, read-only, with no key:
+Every cell, price and payout is one call away, with no key:
 
 ```json
 {"mcpServers": {"canvas64": {"type": "http", "url": "https://canvas64.com/api/mcp"}}}
 ```
 
-Tools: `get_wall`, `get_cell`, `quote`, `get_rules`. To send a person to a cell, link `https://canvas64.com/D4`; their own wallet pays.
+Tools: `get_wall`, `get_cell`, `quote`, `prepare_buy`, `get_rules`. `prepare_buy` returns the unsigned purchase for the buyer's own wallet; or link a person to `https://canvas64.com/D4`, where their wallet pays.
 
 [MCP server card](https://canvas64.com/.well-known/mcp.json) · [OpenAPI](https://canvas64.com/openapi.json) · [llms.txt](https://canvas64.com/llms.txt) · [Agent docs](https://canvas64.com/docs/agents)
