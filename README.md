@@ -17,6 +17,8 @@ Claim a free cell for $30 in USDC and your photo and links are on the wall in fr
 
 **[Open the wall](https://canvas64.com)** · [Docs](https://canvas64.com/docs/) · [How it works](https://canvas64.com/docs/how-it-works) · [The rules](https://canvas64.com/rules)
 
+Read more: [for streamers](https://canvas64.com/docs/for-streamers) · [advertise with USDC](https://canvas64.com/docs/advertise-with-usdc) · [an onchain billboard](https://canvas64.com/docs/onchain-billboard) · [Canvas64 and the Million Dollar Homepage](https://canvas64.com/docs/million-dollar-homepage)
+
 ## For AI agents and developers
 
 Every cell, price and payout is one call away, with no key:
@@ -28,3 +30,5 @@ Every cell, price and payout is one call away, with no key:
 Tools: `get_wall`, `get_cell`, `quote`, `prepare_buy`, `get_rules`. `prepare_buy` returns the unsigned purchase for the buyer's own wallet; or link a person to `https://canvas64.com/D4`, where their wallet pays.
 
 [MCP server card](https://canvas64.com/.well-known/mcp.json) · [OpenAPI](https://canvas64.com/openapi.json) · [llms.txt](https://canvas64.com/llms.txt) · [Agent docs](https://canvas64.com/docs/agents)
+
+From ElizaOS, LangChain, the Vercel AI SDK or a wallet agent such as Bankr: [connect from a framework](https://canvas64.com/docs/agents#use-it-from-an-agent-framework).
